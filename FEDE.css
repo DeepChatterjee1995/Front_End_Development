@@ -1,0 +1,161 @@
+
+}
+.header img{
+	float: left;
+	margin: none;
+	border: none;
+	padding: none;
+	width: 973.6px;
+	height: 258.75px;
+	text-align: center;
+	/*overflow: hidden;*/
+}
+
+.sidebar {
+	float: left;
+	list-style: none;
+	width: 300px;
+	height: 60px;
+	border: 60px 0px 0px 0px;
+	padding: 60px 0px 0px 0px;
+	cursor: pointer;
+	
+}
+
+.sidebar  li{
+	float: left;
+	padding: 20px 100px;
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: regular;
+	font-size: 18px;
+	color: #9ba0a4;
+	margin-bottom: 1px;
+	background-image: linear-gradient( to right ,rgb(235,236,237) 90% , rgb(209,213,214) 100%);
+
+}
+
+#toggle{
+	display: none;
+}
+.sidebar  li:hover{
+	background: #FFFFFF;
+}
+.sidebar #block:hover {
+	background-image: linear-gradient( to right ,rgb(235,236,237) 90% , rgb(209,213,214) 100%);
+}
+.sidebar  li label{
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: regular;
+	font-size: 18px;
+	color: #9ba0a4;
+	text-decoration: none;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.sidebar  li label a:hover{
+	color: #36abe1;
+}
+
+.sidebar  li label a {
+	text-decoration: none;
+	color: #9ba0a4
+}
+
+.sidebar  li img{
+	float: right;
+	margin:0px -50px;
+	 
+}
+
+
+/*Icons change color*/
+
+.sidebar li .label .A:hover{
+	content: url("icons_small_bs1_blue.png");
+}
+.sidebar li .label .B:hover{
+	content: url("icons_small_bs2_blue.png");
+}
+.sidebar li .label .C:hover{
+	content: url("icons_small_bs3_blue.png");
+	cursor: pointer;
+}
+.sidebar li .label .D:hover{
+	content: url("icons_small_bs4_blue.png");
+	cursor: pointer;
+}
+.sidebar li .label .E:hover{
+	content: url("icons_small_bs5_blue.png");
+	cursor: pointer;
+}
+.sidebar li .label .F:hover{
+	content: url("icons_small_bs6_blue.png");
+	cursor: pointer;
+}
+.sidebar li .label .G:hover{
+	content: url("icons_small_bs7_blue.png");
+	cursor: pointer;
+}
+/*Segment Ends*/
+.description {
+	width: 566.54px;
+	height: 408px;
+	border-top: 10px;
+	padding-top: 0px;
+	padding-left: 65px;
+	padding-right: 70px;
+	padding-bottom: 0px;
+	text-align: left;
+	white-space: normal;
+	overflow: hidden;
+	float:right;
+	position: relative;
+	top: -98px;
+	left: 10px;
+}
+
+.description {
+	text-align: justify;
+	font-family: Helvetica;
+	font-weight: regular;
+	font-size: 13px;
+	color: #65686f;
+
+}
+
+.description #one {
+	padding-top: 10px;
+	padding-bottom: 200px;
+
+}
+.description #two {
+	padding-top: 10px;
+	padding-bottom: 200px;
+
+}
+.description #three {
+	padding-top: 10px;
+	padding-bottom: 200px;
+
+}
+.description #four {
+	padding-top: 10px;
+	padding-bottom: 300px;
+
+}
+.description #five {
+	padding-top: 10px;
+	padding-bottom: 200px;
+
+}
+.description #six {
+	padding-top: 10px;
+	padding-bottom: 300px;
+
+}
+.description #seven {
+	padding-top: 10px;
+	padding-bottom: 200px;
+
+}
